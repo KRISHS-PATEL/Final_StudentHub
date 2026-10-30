@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and Cache Files
+*.tmp
+*.log
+*.bak
+
+# Environment / Sensitive Config (if any)
+.env
+.env.local
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

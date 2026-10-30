@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450">
+  <defs>
+    <linearGradient id="gradHero3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#831843;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9d174d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#be185d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="450" fill="url(#gradHero3)"/>
+  <circle cx="980" cy="180" r="140" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="80" y="160" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#fbcfe8" letter-spacing="3">ACCESSIBLE &amp; SECURE PLATFORM</text>
+  <text x="80" y="225" font-family="'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="800" fill="#ffffff">Engineered For Students First</text>
+  <text x="80" y="275" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#e2e8f0">Full WCAG 2.1 AA accessibility, Dark Mode, Bcrypt security, and RBAC admin panels.</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#312e81;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="300" cy="170" r="60" fill="#ffffff" fill-opacity="0.1"/>
+  <path d="M270 180 L300 140 L330 180 Z" fill="#38bdf8"/>
+  <circle cx="300" cy="185" r="8" fill="#facc15"/>
+  <text x="300" y="270" font-family="'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">StudentHub Campus Event</text>
+  <text x="300" y="300" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">CHARUSAT Faculty of Technology &amp; Engineering</text>
+</svg>

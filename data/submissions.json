@@ -1,0 +1,18 @@
+[
+  {
+    "type": "contact",
+    "name": "Pooja Shah",
+    "email": "pooja.s@gmail.com",
+    "subject": "Hackathon Team Size Inquiry",
+    "message": "Can a team have members from both Information Technology and Computer Engineering?",
+    "timestamp": "2026-10-30 10:15:00"
+  },
+  {
+    "type": "feedback",
+    "student_name": "Aarav Sharma",
+    "rating": 5,
+    "category": "Portal Usability",
+    "comments": "The unified StudentHub portal is extremely intuitive and responsive! Loved the dark mode.",
+    "timestamp": "2026-10-30 11:00:00"
+  }
+]

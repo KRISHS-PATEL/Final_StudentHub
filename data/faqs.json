@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "General",
+    "question": "What is the StudentHub Portal?",
+    "answer": "StudentHub is an integrated, unified campus portal developed for CHARUSAT FTE students and faculty to manage academic profiles, event registrations, campus announcements, and administrative workflows in one place."
+  },
+  {
+    "id": 2,
+    "category": "General",
+    "question": "Who can create an account on StudentHub?",
+    "answer": "All enrolled undergraduate and postgraduate students from departments such as IT, CSE, Computer Applications (BCA/MCA) can register with their university email address."
+  },
+  {
+    "id": 3,
+    "category": "Authentication",
+    "question": "How does secure authentication work?",
+    "answer": "Passwords are encrypted using PHP's industry-standard Bcrypt algorithm (password_hash). Sessions are regenerated upon login to prevent session fixation, and brute-force protection with auto-timeout is enforced."
+  },
+  {
+    "id": 4,
+    "category": "Authentication",
+    "question": "What is the Session Timeout duration?",
+    "answer": "For security, inactive user sessions time out after 15 minutes of inactivity. Users must re-authenticate to continue accessing protected dashboard routes."
+  },
+  {
+    "id": 5,
+    "category": "Authentication",
+    "question": "How does the 'Remember Me' feature work safely?",
+    "answer": "Instead of storing plain credentials or easily forged cookies, we generate a cryptographically secure 256-bit random token, store its SHA-256 hash in the database, and verify the client cookie securely."
+  },
+  {
+    "id": 6,
+    "category": "Events",
+    "question": "How do I register for campus events?",
+    "answer": "Once logged in as a student, navigate to the Events section, click on any open event, and click the 'Register Now' button. Your registration is instantly confirmed via our AJAX API without refreshing the page."
+  },
+  {
+    "id": 7,
+    "category": "Events",
+    "question": "Can I cancel my event registration?",
+    "answer": "Yes, you can manage and cancel your registrations directly from your Student Dashboard under 'My Enrolled Events'."
+  },
+  {
+    "id": 8,
+    "category": "Events",
+    "question": "What happens when an event reaches maximum seat capacity?",
+    "answer": "Once registered participants reach max seats, the event status automatically updates to Closed and further registrations are prevented."
+  },
+  {
+    "id": 9,
+    "category": "Technical",
+    "question": "What web technologies power StudentHub?",
+    "answer": "StudentHub is built using HTML5 Semantic markup, CSS3 (Flexbox, CSS Grid), Bootstrap 5, Vanilla JavaScript ES6+ (DOM manipulation, Fetch API), PHP 8.2 (OOP, PDO, Prepared Statements), and MySQL."
+  },
+  {
+    "id": 10,
+    "category": "Technical",
+    "question": "Is the portal accessible for keyboard and screen-reader users?",
+    "answer": "Yes, StudentHub adheres to WCAG 2.1 AA standards, featuring skip-to-content links, ARIA labels, semantic landmark tags, and high-contrast color palettes."
+  },
+  {
+    "id": 11,
+    "category": "Technical",
+    "question": "Does StudentHub support Dark Mode?",
+    "answer": "Yes, an accessible light/dark theme switcher is located in the top navigation bar. Your theme preference is preserved in browser localStorage."
+  },
+  {
+    "id": 12,
+    "category": "Admin",
+    "question": "What administrative capabilities does Admin possess?",
+    "answer": "Admins have access to the Admin Dashboard featuring live statistics, Student CRUD management with CSV export, Event CRUD with poster file uploads, user account status toggles, and system audit logs."
+  },
+  {
+    "id": 13,
+    "category": "Admin",
+    "question": "What file formats and limits exist for event poster uploads?",
+    "answer": "Posters must be valid image files (JPG, JPEG, PNG, WEBP, GIF) under 2MB in file size. MIME-type validation and server-side renaming protect the server from malicious executions."
+  },
+  {
+    "id": 14,
+    "category": "Data & Privacy",
+    "question": "Where are contact and feedback submissions stored?",
+    "answer": "To satisfy both file storage and relational database requirements (Practicals 7 & 8), submissions are safely logged to both CSV/JSON storage files and relational MySQL tables with concurrency locking (flock)."
+  },
+  {
+    "id": 15,
+    "category": "Support",
+    "question": "How do I report technical bugs or suggest improvements?",
+    "answer": "You can reach out via the Contact page form or leave ratings and constructive reviews on the Feedback page."
+  }
+]
