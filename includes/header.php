@@ -37,6 +37,7 @@ $flash = get_flash();
   </script>
 </head>
 <body>
+  
   <!-- Practical 2: Accessibility Skip to Content Link -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
